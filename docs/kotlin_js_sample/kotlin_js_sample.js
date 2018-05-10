@@ -370,7 +370,7 @@ var kotlin_js_sample = function (_, Kotlin) {
     var $receiver = this.ball;
     $receiver.x = this.canvas.width / 2.0;
     $receiver.y = this.canvas.height - 30.0;
-    $receiver.dx = 2.0;
+    $receiver.dx = -2.0;
     $receiver.dy = -2.0;
   };
   function Game$canvas$lambda() {

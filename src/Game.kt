@@ -168,7 +168,7 @@ object Game {
         ball.apply {
             x = canvas.width / 2.0
             y = canvas.height - 30.0
-            dx = 2.0
+            dx = -2.0
             dy = -2.0
         }
     }
